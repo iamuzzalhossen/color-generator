@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RGB and HEX Color Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Change background by generating a random RGB or HEX color code</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Color Code" id="show-value" readonly>
+                <img src="images/copy-icon.png" alt="Copy Icon" id="copyIcon" onclick="copyColorCode()">
+            </div>
+            <div class="double-btn">
+                <button onclick="changeBodyRGBColor()">Generate RGB Color</button>
+                <button onclick="changeBodyHexColor()">Generate Hex Color</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
