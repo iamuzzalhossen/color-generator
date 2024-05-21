@@ -1,2 +1,4 @@
 # color-generator
-JS Project - RGB and HEX Color Generator
+JS Project - Random RGB and HEX Color Code Generator
+
+Live URL: https://iamuzzalhossen.github.io/color-generator/
